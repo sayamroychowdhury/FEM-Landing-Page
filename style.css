@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    /* font-family: 'Barlow', sans-serif; */
+    /* font-family: 'Fraunces', serif; */
+    display: flex;
+    justify-content: center;
+}
+.first{
+    height: 100vh;
+    background: url("./images/desktop/image-header.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+}
+
+.first .navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+    /* border: 2px solid black; */
+}
+
+.first .navbar .logo{
+    width: 15vw;
+    /* border: 2px solid red; */
+}
+
+.first .navbar .content{
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 0.85rem;
+    /* border: 2px solid red; */
+}
+
+.first .navbar .content p{
+    padding: 1rem 2rem;
+    /* border: 2px solid black; */
+    /* border-radius: 100px; */
+}
+
+.first .navbar .content p:hover{
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    /* outline: 2px solid black; */
+}
+
+.first > h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    margin-top: 4rem;
+    /* border: 2px solid black; */
+}
+
+.first .arrow{
+    margin-top: 4.5rem;
+    height: 12.5vh;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.first .arrow img{
+    max-height: 100%;
+}
+
+.second, .third, .fourth{
+    display: flex;
+}
+
+.second > div, .third > div, .fourth > div{
+    width: 50vw;
+    height: 80vh;
+    /* outline: 2px solid black; */
+}
+
+.second .image{
+    background: url("./images/desktop/image-transform.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.second .text, .third .text, .fourth > div{
+    font-family: 'Fraunces', serif;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth > div{
+    justify-content: flex-end;
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+
+.second .text h1, .third .text h1{
+    font-size: 2.5rem;
+    width: 54%;
+    /* border: 2px solid red; */
+}
+
+.second .text > p:nth-child(2), .third .text > p:nth-child(2){
+    font-family: 'Barlow', sans-serif;
+    width: 54%;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.second .text .learn, .third .text .learn{
+    width: 54%;
+}
+
+.second .text .learn p, .third .text .learn p{
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+}
+
+.second .text hr.newHr, .third .text hr.newHr{
+    border-top: 5px solid hsl(51, 100%, 49%);
+    width: 6.2vw;
+}
+
+.third .text hr.newHr{
+    border-top: 5px solid hsl(7, 99%, 70%);
+}
+
+.third .image{
+    background: url("./images/desktop/image-stand-out.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.fourth .image1{
+    background: url("./images/desktop/image-graphic-design.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.fourth .image2{
+    background: url("./images/desktop/image-photography.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.fourth .image1 h1, .fourth .image1 p{
+    color: hsl(167, 40%, 24%)
+}
+
+.fourth .image2 h1, .fourth .image2 p{
+    color: hsl(198, 62%, 26%);
+}
+
+.fourth > div p{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    width: 45%;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    /* border: 2px solid black; */
+}
